@@ -6,11 +6,12 @@ A Semo plugin to provide ability to send message to DingTalk
 
 ```
 npm i -g @semo/cli semo-plugin-dingtalk
+semo dingtalk help
 ```
 
 ## Usage
 
-Support 5 types of DingTalk: `Text`, `Markdown`, `Link`, `FeedCard`, `ActionCard`, and each type has options.
+Support 5 types of DingTalk messages: `Text`, `Markdown`, `Link`, `FeedCard`, `ActionCard`, and each type has options.
 
 ```
 semo dingtalk text help
