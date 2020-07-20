@@ -40,6 +40,10 @@ export class DingBot {
    * @param options 
    */
   public async send(options) {
+    if (!this.token) {
+      throw new Error('Invalid DingTalk token')
+    }
+
     let sign = this.sign()
     let url
     if (!sign) {
