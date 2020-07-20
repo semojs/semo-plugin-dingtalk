@@ -1,6 +1,6 @@
 {
   "name": "semo-plugin-dingtalk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Semo plugin to provide ability to send message to DingTalk",
   "keywords": [
     "semo",
